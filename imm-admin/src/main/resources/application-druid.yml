@@ -6,9 +6,9 @@ spring:
         druid:
             # 主库数据源
             master:
-                url: jdbc:mysql://47.104.139.200:3306/smis_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-                username: smis_ruoyi
-                password: Q2pogIlE4O
+                url: jdbc:mysql://vmhost1.dev.imaritime.cn:33006/imm?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                username: imm
+                password: 123456
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
